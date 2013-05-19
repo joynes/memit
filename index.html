@@ -1,0 +1,49 @@
+<html>
+<head>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="center">
+<script src="jquery-1.9.1.min.js"></script>
+<script src="jquery.lint.js"></script>
+<script src="levenshtein.js"></script>
+<!-- Game with two modes. One which just goes through all characters to be able to remember them. Another wich lets you input a name and tells you if its correct -->
+<div class="center">
+	<span id="practice" class="menutext">Practice</span>
+	<span id="guess" class="menutext" style='float:right'>Guess</span>
+	<br/><br/>
+	<span id="take10" class="menutextSmall">Take 10</span>
+	<span id="exam" class="menutextSmall" style='float:right'>Exam</span>
+	<br/><br/>
+</div>
+<p id="description" class="descrtext" style="text-align:center"></p>
+<p id="score" class="hidden" style="text-align:center"></p>
+<img id="image" class="centerImage">
+<p id="name" class="nametext" style="text-align:center"></p>
+<form id="inputtext" class="hidden" style="width: 50%; margin: 0 auto;">
+	<input type="text" />
+	<input type="submit" value="OK" />
+</form>
+<div id="playgrid" class="hidden">
+	<table border="0">
+	<tr>
+	<td><img id="grid0" src="dota_names/images/queenofpain.png" width="200px" class="gridImageLeft"></td>
+	<td><img id="grid1" src="dota_names/images/queenofpain.png" width="200px" class="gridImageRight"></td>
+	</tr>
+
+	<tr>
+	<td><img id="grid2" src="dota_names/images/queenofpain.png" width="200px" class="gridImageLeft"></td>
+	<td><img id="grid3" src="dota_names/images/queenofpain.png" width="200px" class="gridImageRight"></td>
+	</tr>
+
+	<tr>
+	<td><img id="grid4" src="dota_names/images/queenofpain.png" width="200px" class="gridImageLeft"></td>
+	<td><img id="grid5" src="dota_names/images/queenofpain.png" width="200px" class="gridImageRight"></td>
+	</tr>
+	</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
