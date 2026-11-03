@@ -1,0 +1,13 @@
+{
+  "game": "memit",
+  "date": "2026-11-03",
+  "homepageCommit": "4cf29c7574fd6c803bb66dba8fb77786f5eee226",
+  "sourceHead": "0374025ade4f22aff6b1af45cf0cdf96c4ea5b22",
+  "sourceWorktree": null,
+  "snapshotPaths": [
+    "games/memit",
+    "scripts/test-memit.mjs",
+    "scripts/test-memit-browser.cjs"
+  ],
+  "status": "Baseline saved before renewed browser audit. No new verification claimed."
+}
